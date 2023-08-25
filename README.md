@@ -5,3 +5,7 @@ Stemming from a summer-long project in the ADAMS Lab, this guide is meticulously
 
 
 TODO
+
+
+***
+Note: Please feel free to add to this file. Include your name and email address to the top of this file if you contribute.
