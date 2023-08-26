@@ -3,6 +3,9 @@
 ***
 
 # Introduction
+
+>Note: If you are not able to set up the Bitcraze Client on your Mac, its okay. You can still try setting up Crazyswarm 2 on your Mac. You will just not be able to change the address and firmware of the Crazyflie. You can ask Eric Butcher to do that for you. Skip this guide and follow the [Complete Guide to Setting up Crazyswarm 2 on Ubuntu VM 22.04 on Mac](Complete%20Guide.md) to set up Crazyswarm 2 on your Mac.
+
 We would be following the [official Bitcraze Client documentation](https://www.bitcraze.io/documentation/repository/bitcraze-client-python/master/getting_started/) to setup the Bitcraze Client on our Mac.
 
 # Installing Python 3.10
