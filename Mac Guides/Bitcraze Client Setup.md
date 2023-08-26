@@ -18,7 +18,9 @@ We would be following the [official Bitcraze Client documentation](https://www.b
 
     ``` bash
     sudo apt-get remove python3-pyqt5
-    pip3 install PyQt5
+    pip uninstall pyqt5
+    sudo apt install python3-pip
+    pip install pyqt5 --config-settings --confirm-license= --verbose
     ```
 
 2. Follow the steps here to access Crazyradio PA without being root https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/
@@ -31,7 +33,9 @@ We would be following the [official Bitcraze Client documentation](https://www.b
     pip3 install cfclient
     ```
 
-4. Run the Bitcraze Client by running the following command in the terminal:
+4. Restart the Ubuntu VM.
+
+5. Run the Bitcraze Client by running the following command in the terminal:
 
     ``` bash
     cfclient
