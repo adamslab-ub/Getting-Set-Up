@@ -7,7 +7,7 @@ Stemming from a summer-long project in the ADAMS Lab, this guide is meticulously
 Follow the instructions in [this .md file](./Mac%20Guides/Complete%20Guide.md) to set up a Ubuntu VM on your Mac.
 
 # Setting up on Windows
-TODO (Eric)
+Follow the instructions in [this .md file](./Windows%20Guides/Complete_WSL_Workflow_Setup.md) to set WSL2 with usbipd-win, ROS2 Humble, and crazyswarm2 on a modern Windows 11 computer. 
 
 
 ***
