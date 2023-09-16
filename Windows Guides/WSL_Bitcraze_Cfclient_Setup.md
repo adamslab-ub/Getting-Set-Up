@@ -1,4 +1,6 @@
 # Installing the Bitcraze cfclient on a WSL Ubuntu Environment Tutorial
+*Authored by [Eric Butcher](https://github.com/Eric-Butcher) (ericbutc@buffalo.edu) on September 16, 2023*
+***
 
 ## Introduction
 

@@ -1,4 +1,6 @@
 # Connecting USB Devices to WSL Through usbipd-win
+*Authored by [Eric Butcher](https://github.com/Eric-Butcher) (ericbutc@buffalo.edu) on September 16, 2023*
+***
 
 ## Introduction
 
