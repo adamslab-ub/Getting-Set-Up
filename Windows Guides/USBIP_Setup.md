@@ -43,7 +43,7 @@ sudo apt install linux-tools-generic hwdata
 sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/*-generic/usbip 20
 ```
 
-These commands are only appliocable if using Ubuntu.
+These commands are only applicable if using Ubuntu.
 
 After running `sudo apt upgrade` you may need to repeat the command 
 ``` bash
