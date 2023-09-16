@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This will be a step-by-step tutorial for installing the cfclient on an Ubuntu WSL environement. It should be noted that the connect usb-peripherals to the Linux machine, we will have to use a tool called usbip. This means that while this tutorial will allow you to run and launch cfclient on your WSL enviornement, you will not be able to connect to crazyflies through the cfclient until you get that program set up. 
+This will be a step-by-step tutorial for installing the cfclient on an Ubuntu WSL environment. It should be noted that the connect usb-peripherals to the Linux machine, we will have to use a tool called usbip. This means that while this tutorial will allow you to run and launch cfclient on your WSL enviornement, you will not be able to connect to crazyflies through the cfclient until you get that program set up. 
 
-Using cfclient through WSL has the significant advantage of allowing users to do crazyflie/swarm work on their own Windows computer without the need for a dedicated Ubuntu laptop. Using WSL allows perfomrance with near-native speed and latency. While crazyswarm2 and cfclient can techincally be used through a VM, this can cause issues with some of the programs working poorly, being buggy, or having too high latency to be practically usable for anything but the most simple of adminstrative tasks such as updating firmware and addresses. In our experience, using cfclient through a VM casued numerous issues with the program's GUI not rendering properly and being incredibly laggy regardless. This made it difficult to do even the most simplest of tasks, and impossible to do others. Depending on the VM, there was also an apparent latency of communication of anywhere from 4-20 seconds when connected to the crazyflie over antenna. The latency with WSL is unnoticeable. 
+Using cfclient through WSL has the significant advantage of allowing users to do crazyflie/swarm work on their own Windows computer without the need for a dedicated Ubuntu laptop. Using WSL allows performance with near-native speed and latency. While crazyswarm2 and cfclient can technically be used through a VM, this can cause issues with some of the programs working poorly, being buggy, or having too high latency to be practically usable for anything but the most simple of administrative tasks such as updating firmware and addresses. In our experience, using cfclient through a VM caused numerous issues with the program's GUI not rendering properly and being incredibly laggy regardless. This made it difficult to do even the most simplest of tasks, and impossible to do others. Depending on the VM, there was also an apparent latency of communication of anywhere from 4-20 seconds when connected to the crazyflie over antenna. The latency with WSL is unnoticeable. 
 
 ## Step 1: Ensure installation of Python3 
 Python 3.10.x should already be installed on Ubuntu 22.04. To check if it is installed, run the following command in the terminal:
@@ -42,7 +42,7 @@ Since we are using WSL, the usb be devices will not work by default. Getting usb
 
 ## Step 5: Install cfclient from pip3
 
-While cfclient can also be installed from source, installing it through pip3 in preferred. If you use virtual python enviorments, you should create an environement for working with crazyflies before installing cfclient. 
+While cfclient can also be installed from source, installing it through pip3 in preferred. If you use virtual python environments, you should create an environment for working with crazyflies before installing cfclient. 
 ``` bash
 pip3 install cfclient
 ```
@@ -59,7 +59,7 @@ If cfclient does not launch for any reason, first store the output of the cfclie
 ``` powershell
 wsl --shutdown
 ```
-and then close any currently open WSL windows/terminals. This will effectivelly restart WSL. Then open a new Ubuntu terminal and try typing cfclient again. 
+and then close any currently open WSL windows/terminals. This will effectively restart WSL. Then open a new Ubuntu terminal and try typing cfclient again. 
 
 
 We have found a bug that we experience with some cfclient installations. If you are still having problems running cfclient, it may be because of the default PyQt5 installation on your machine. If you are getting a python error when running cfclient mentioning and GUI or PyQt parts, this is likely the issue. To fix this bug, run the following command in the terminal:

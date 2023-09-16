@@ -16,7 +16,7 @@ According to [Microsoft's Connect USB Devices Page](https://learn.microsoft.com/
 * Linux distribution installed and set to WSL 2.
 * Running Linux kernel 5.10.60.1 or later.
 
-If you do not meet any of these specifications, please go directly to [Microsoft's Connect USB Devices Page](https://learn.microsoft.com/en-us/windows/wsl/connect-usb). Your Linux distribution and kernel should be adequte if you have recently installed WSL. 
+If you do not meet any of these specifications, please go directly to [Microsoft's Connect USB Devices Page](https://learn.microsoft.com/en-us/windows/wsl/connect-usb). Your Linux distribution and kernel should be adequate if you have recently installed WSL. 
 
 ## Step 2: Install ubipd-win
 
