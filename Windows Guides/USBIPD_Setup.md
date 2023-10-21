@@ -34,7 +34,7 @@ To install using winget, open a Windows **powershell**:
 winget install --interactive --exact dorssel.usbipd-win
 ```
 
-Proceed through the entire installation. Do not close the terminal or shut off your computer unless explicitelly asked to by the installer. 
+Proceed through the entire installation. Do not close the terminal or shut off your computer unless explicitly asked to by the installer. 
 
 ## Step 3: Install Linux-side User-Space Tools and Hardware Identifiers
 
