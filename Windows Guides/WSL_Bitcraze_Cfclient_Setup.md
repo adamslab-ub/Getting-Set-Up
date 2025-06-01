@@ -39,7 +39,7 @@ pip3 install --upgrade pip
 
 This step will allow you to connect with bitcraze devices such as the crazyradio through usb without being root. Go to [Bitcraze's article on USB permissions](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/) and follow all the steps there. 
 
-Since we are using WSL, the usb be devices will not work by default. Getting usb devices working properly in the WSL environment will be covered in the [usbip setup guide](). Proceed to the next step and make sure to go to that guide after completing this tutorial. 
+Since we are using WSL, the usb devices will not work by default. Getting usb devices working properly in the WSL environment will be covered in the [usbipd setup guide](USBIPD_Setup.md). Proceed to the next step and make sure to go to that guide after completing this tutorial. 
 
 
 ## Step 5: Install cfclient from pip3
@@ -56,7 +56,7 @@ cfclient
 ```
 Verify that cfclient launches properly. If cfclient launches properly, you are done. 
 
-If cfclient does not launch for any reason, first store the output of the cfclient installation into a safe place and then close and reopen your terminal. Try typing the command in again. If this still does not work, open a Windows **powershell** and type:
+If cfclient does not launch for any reason, first store the terminal output of the cfclient installation into a safe place and then close and reopen your terminal. Try typing the command in again. If this still does not work, open a Windows **powershell** and type:
 
 ``` powershell
 wsl --shutdown
@@ -64,7 +64,7 @@ wsl --shutdown
 and then close any currently open WSL windows/terminals. This will effectively restart WSL. Then open a new Ubuntu terminal and try typing cfclient again. 
 
 
-We have found a bug that we experience with some cfclient installations. If you are still having problems running cfclient, it may be because of the default PyQt5 installation on your machine. If you are getting a python error when running cfclient mentioning and GUI or PyQt parts, this is likely the issue. To fix this bug, run the following command in the terminal:
+We have found a bug that we experience with some cfclient installations. If you are still having problems running cfclient, it may be because of the default PyQt5 installation on your machine. If you are getting a python error when running cfclient mentioning GUI or PyQt parts, this is likely the issue. To fix this bug, run the following command in the terminal:
 
 ``` bash
 sudo apt-get remove python3-pyqt5
